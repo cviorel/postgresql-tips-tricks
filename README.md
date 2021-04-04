@@ -12,7 +12,7 @@ Some Tips and Tricks about PostgreSQL.
 
 ## Useful links
 
-* [SqlBench](https://github.com/felixge/sqlbench) - SQL Benchmark on Postgresql
+* [SqlBench](https://github.com/felixge/sqlbench) - Tool to measures and compares the execution time of SQL queries on PG database
 
 ## Build with
 
