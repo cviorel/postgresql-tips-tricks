@@ -6,9 +6,20 @@ Some Tips and Tricks about PostgreSQL.
 
 ![PostgreSQL](./images/postgresql-logo-256.png)
 
-## Useful documents
+## Useful scripts
 
-* ...
+* Get content statistics for a table
+* Check a fillfactor value for tables and indexes
+* Find duplicate indexes
+* Return user grants
+* Find useless indexes
+* Get the table structure
+* Get index usage statistics
+* Find missing indexes
+* Returns all non-system tables missing a primary key and (or) unique indexes
+* Returns all non-system tables on which a primary key is missing
+* Returns all tables with Geometry fields that have no index on the Geometry field
+* Top 10 longest queries
 
 ## Useful links
 
