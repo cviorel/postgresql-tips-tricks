@@ -12,17 +12,43 @@ Some Tips and Tricks about PostgreSQL.
 
 ## Useful links
 
-* 
+* [SqlBench](https://github.com/felixge/sqlbench) - SQL Benchmark on Postgresql
 
 ## Build with
 
 * [PostgreSQL](https://www.postgresql.org) - Open source object-relational database system
 * [Docker](https://www.docker.com/) - Set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers
 * [Git](https://git-scm.com) - Open source distributed version control system
+* [pgAdmin](https://www.pgadmin.org/) - Open Source administration and development platform for PostgreSQL
+* [Go](https://golang.org/) - Open source programming language 
 
-## Get started with ...
+## Getting started with SqlBench
 
-...
+* Clone this project
+* Use docker-compose and the docker-compose.yaml file
+
+```bat
+docker-compose up -d
+```
+
+* Install Go
+* Install Sqlbench with Go
+
+```go
+go get -u github.com/felixge/sqlbench
+```
+
+* Call Sqlbench in CL
+
+```bat
+sqlbench -c postgres://admin:password@localhost:5432/adventureworks?sslmode=disable -n 1000 -o baseline.csv queries/employee.sql
+```
+
+* Use docker-compose to stop properly the project
+
+```bat
+docker-compose down
+```
 
 ## Contributing
 
