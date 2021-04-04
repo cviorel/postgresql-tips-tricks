@@ -24,6 +24,16 @@ Some Tips and Tricks about PostgreSQL.
 ## Useful links
 
 * [SqlBench](https://github.com/felixge/sqlbench) - Tool to measures and compares the execution time of SQL queries on PG database
+* [PostgreSQL SQL Tricks](https://postgres.cz/wiki/PostgreSQL_SQL_Tricks) - Tips & Tricks on PostgreSQL
+* [PostgreSQL Index Maintenance](https://wiki.postgresql.org/wiki/Index_Maintenance) - Index maintenance
+* [Postgres Cheat Sheet](https://postgrescheatsheet.com/#/tables)
+
+## Tomorrow I will learn about PostgreSQL
+
+* [pgwatch](https://www.cybertec-postgresql.com/en/products/pgwatch/) - PG monitoring tool
+* [pg_configurator](https://www.cybertec-postgresql.com/en/products/pg-configurator/) - Configurating PG
+* [pg_squeeze](https://www.cybertec-postgresql.com/en/products/pg_squeeze/) - Shrink PG tables
+* [pgTAP](https://pgtap.org/) - Unit testing for PostgreSQL
 
 ## Build with
 
