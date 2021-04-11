@@ -2,7 +2,7 @@
 
 Some Tips and Tricks about PostgreSQL.
 
-[![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 ![PostgreSQL](./images/postgresql-logo-256.png)
 
@@ -28,7 +28,7 @@ Some Tips and Tricks about PostgreSQL.
 * [PostgreSQL Index Maintenance](https://wiki.postgresql.org/wiki/Index_Maintenance) - Index maintenance
 * [Postgres Cheat Sheet](https://postgrescheatsheet.com/#/tables)
 
-## Tomorrow I will learn about PostgreSQL
+## Tomorrow I will learn
 
 * [pgwatch](https://www.cybertec-postgresql.com/en/products/pgwatch/) - PG monitoring tool
 * [pg_configurator](https://www.cybertec-postgresql.com/en/products/pg-configurator/) - Configurating PG
