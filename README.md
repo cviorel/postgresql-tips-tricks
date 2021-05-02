@@ -8,10 +8,11 @@ Some Tips and Tricks about PostgreSQL.
 
 ## Useful scripts
 
+### Audit
+
 * Get content statistics for a table
 * Check a fillfactor value for tables and indexes
 * Find duplicate indexes
-* Return user grants
 * Find useless indexes
 * Get the table structure
 * Get index usage statistics
@@ -19,7 +20,23 @@ Some Tips and Tricks about PostgreSQL.
 * Returns all non-system tables missing a primary key and (or) unique indexes
 * Returns all non-system tables on which a primary key is missing
 * Returns all tables with Geometry fields that have no index on the Geometry field
+
+### Size
+
+* Checking the size of the database
+* Get wasted bytes
+* Which table has the highest dead tuples
+* Which table or index is consuming the most space
+
+### Performance
+
 * Top 10 longest queries
+* Get running queries and lock statuses
+* Kill a query
+
+### Security
+
+* Return user grants
 
 ## Useful links
 
