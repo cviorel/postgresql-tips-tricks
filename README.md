@@ -43,7 +43,8 @@ Some Tips and Tricks about PostgreSQL.
 * [SqlBench](https://github.com/felixge/sqlbench) - Tool to measures and compares the execution time of SQL queries on PG database
 * [PostgreSQL SQL Tricks](https://postgres.cz/wiki/PostgreSQL_SQL_Tricks) - Tips & Tricks on PostgreSQL
 * [PostgreSQL Index Maintenance](https://wiki.postgresql.org/wiki/Index_Maintenance) - Index maintenance
-* [Postgres Cheat Sheet](https://postgrescheatsheet.com/#/tables)
+* [Postgres Cheat Sheet](https://postgrescheatsheet.com/#/tables) - PGSQL cheat sheet
+* [PGSQL commands & queries](https://dzone.com/articles/useful-postgresql-commandsqueries-part-1) - Useful commands & queries
 
 ## Tomorrow I will learn
 
