@@ -20,6 +20,7 @@ Some Tips and Tricks about PostgreSQL.
 * Returns all non-system tables missing a primary key and (or) unique indexes
 * Returns all non-system tables on which a primary key is missing
 * Returns all tables with Geometry fields that have no index on the Geometry field
+* [Find bloated tables](./scripts/audit/find_bloated_tables.sql)
 
 ### Size
 
