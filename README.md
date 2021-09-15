@@ -10,34 +10,35 @@ Some Tips and Tricks about PostgreSQL.
 
 ### Audit
 
-* Get content statistics for a table
-* Check a fillfactor value for tables and indexes
-* Find duplicate indexes
-* Find useless indexes
-* Get the table structure
-* Get index usage statistics
-* Find missing indexes
-* Returns all non-system tables missing a primary key and (or) unique indexes
-* Returns all non-system tables on which a primary key is missing
-* Returns all tables with Geometry fields that have no index on the Geometry field
+* [Get content statistics for a table](./scripts/audit/table-statistics.sql)
+* [Check a fillfactor value for tables and indexes](./scripts/audit/fill-factor-value.sql)
+* [Find duplicate indexes](./scripts/audit/duplicate-indexes.sql)
+* [Find useless indexes](./scripts/audit/useless-indexes.sql)
+* [Get the table structure](./scripts/audit/table-structure.sql)
+* [Get index usage statistics](./scripts/audit/index-usage-statistics.sql)
+* [Tables needing indexes](./scripts/audit/tables-need-indexing.sql)
+* [Returns all non-system tables missing a primary key and (or) unique indexes](./scripts/audit/tables-without-pk-ui.sql)
+* [Returns all non-system tables on which a primary key is missing](./scripts/audit/tables-without-pk.sql)
+* [Returns all tables with Geometry fields that have no index on the Geometry field](./scripts/audit/tables-without-indexes-on-geometry.sql)
 * [Find bloated tables](./scripts/audit/find_bloated_tables.sql)
+* [Find missing indexes](./scripts/audit/missing-indexes.sql)
 
 ### Size
 
-* Checking the size of the database
-* Get wasted bytes
-* Which table has the highest dead tuples
-* Which table or index is consuming the most space
+* [Checking the size of the database](./scripts/size-related-issues/db-size.sql)
+* [Get wasted bytes](./scripts/size-related-issues/wasted-bytes.sql)
+* [Which table has the highest dead tuples](./scripts/size-related-issues/dead-tuples.sql)
+* [Which table or index is consuming the most space](./scripts/size-related-issues/most-space.sql)
 
 ### Performance
 
-* Top 10 longest queries
-* Get running queries and lock statuses
-* Kill a query
+* [Top 10 longest queries](./scripts/performance-related-issues/top-10-longest-queries.sql)
+* [Get running queries and lock statuses](./scripts/performance-related-issues/running-queries.sql)
+* [Kill a query](./scripts/performance-related-issues/kill.sql)
 
 ### Security
 
-* Return user grants
+* [Return user grants](./scripts/security/user-grants.sql)
 
 ## Useful links
 
