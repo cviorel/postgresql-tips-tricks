@@ -47,6 +47,14 @@ Some Tips and Tricks about PostgreSQL.
 * [Postgres Cheat Sheet](https://postgrescheatsheet.com/#/tables) - PGSQL cheat sheet
 * [PGSQL commands & queries](https://dzone.com/articles/useful-postgresql-commandsqueries-part-1) - Useful commands & queries
 
+## Useful tips
+
+### Search in every field in a table
+
+![Search in every field in a table](./images/search-in-every-field-in-a-table.png)
+
+![Result](./images/result-search-in-every-field-in-a-table.png)
+
 ## Tomorrow I will learn
 
 * [pgwatch](https://www.cybertec-postgresql.com/en/products/pgwatch/) - PG monitoring tool
